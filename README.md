@@ -36,28 +36,29 @@ describe("As a user, I want to register my account to Cermati.com", () => {
     
     it("It should be able to input email", () => {
         const inputEmail = cy.get("#email");
-        inputEmail.type("hariskaisardaniels@gmail.com");
+        inputEmail.type("johndoe@gmail.com");
     });
 
 });
 ```
-
+> *NOTE: The email and password in this source code is dummy example. You have to change the email and password of your own for running this test.
 
 ## Run Test
 To run the test, you need to follow these steps
 - First, open terminal in your Code Editor by clicking ctrl + `
 - Then type `npx cypress open` and press ENTER on your keyboard
   
-  ![Screenshot_Terminal](https://user-images.githubusercontent.com/74105380/126939714-9c33dc8b-1ebd-410b-b433-e2f3f2d24297.jpg)
+  <img width="958" alt="Screenshot_1" src="https://user-images.githubusercontent.com/74105380/142380485-5a6897f4-5356-4aeb-bfcf-81ffc579a815.png">
   
 - Wait until Cypress Test Runner open up
-- Then, click `test.spec.js` to run the test
-  
-  ![Screenshot_Test_Runner](https://user-images.githubusercontent.com/74105380/126940145-51af5625-8ebf-472c-ba4f-bd202393fbf9.jpg)
+- Then, click `register-cermati.js` to run the test
+
+  <img width="591" alt="Screenshot_3" src="https://user-images.githubusercontent.com/74105380/142380697-2c0c733b-d6d7-4c88-96c5-c5abf6a7e932.png">
 
 - And the test will run  
 
-https://user-images.githubusercontent.com/74105380/132805226-43b3184d-ee8e-4a00-b481-617fa629cb50.mp4
+https://user-images.githubusercontent.com/74105380/142380854-2f8b9db6-1f2c-4ada-9291-0bb0b75f81b4.mp4
+
 
   
 # All is Done!
